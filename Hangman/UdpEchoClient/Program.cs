@@ -3,8 +3,9 @@ using System.Net.Sockets; // For UdpClient
 using System.Text; // For Encoding (ASCII)
 
 class UdpEchoClient {
+
 	static void Main() {
-		StartClient(50001);
+        StartClient(50001);
 	}
 
 	static void StartClient(int remotePort) {
